@@ -1,8 +1,8 @@
-resource "aws_s3_bucket" "example" {
-  bucket = "my_first_bucket"
+resource "aws_s3_bucket" "dgp-first-bucket" {
+  bucket = "dgp-my-first-bucket"
 
   tags = {
-    Name        = "My bucket"
+    Name        = "Mydgp-bucket"
     Environment = "Dev"
   }
 }
